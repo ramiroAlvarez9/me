@@ -1,0 +1,257 @@
+html, body {
+  width: 1366px;
+  height: 3072px;
+}
+
+h1, h2, h3, span, p, li {
+  font-family: "Open Sans", sans-serif;
+  color: #00065F;
+}
+
+.menu_a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.hoja1 {
+  height: 627px;
+  margin: 0;
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.116);
+}
+
+.hoja1 .foto-cv {
+  position: absolute;
+  left: 670px;
+  top: 0;
+  z-index: -1;
+}
+
+.hoja1 .foto-cv .main {
+  margin: 0;
+}
+
+.hoja1 .main-menu {
+  position: absolute;
+  left: 718px;
+  top: 11px;
+  z-index: 0;
+  font-size: 20px;
+}
+
+.hoja1 .main_contact {
+  position: absolute;
+  left: 53px;
+  top: 11px;
+  width: 60px;
+  font-size: 20px;
+}
+
+.hoja1 .name {
+  font-size: 115px;
+  width: 387px;
+  height: 287px;
+  margin: 0 0 0 35px;
+}
+
+.hoja1 .front-end {
+  font-size: 28px;
+  margin: 54px 0 0 37px;
+}
+
+.hoja1 .name-front {
+  margin: 140px 0 0 0;
+}
+
+.hoja1 .main_imglink {
+  position: absolute;
+  left: 250px;
+  top: 3px;
+}
+
+.hoja1 #whatsapp {
+  position: absolute;
+  left: -50px;
+  top: -4px;
+}
+
+.hoja2 {
+  height: 768px;
+  margin: 0;
+  border-bottom: solid 0.5px;
+  border-color: rgba(0, 0, 0, 0.116);
+}
+
+.hoja2 .acerca-de {
+  font-size: 80px;
+  margin: 10px 0 0 910px;
+}
+
+.hoja2 .parrafo {
+  font-size: 20px;
+  width: 715px;
+  height: 237px;
+  margin: 85px 0 0 600px;
+  text-align: right;
+}
+
+.hoja2 .triangle {
+  width: 1250px;
+  height: 0.1px;
+  border: solid 1px;
+  background-color: #00065F;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  opacity: 20%;
+  top: 1200px;
+  left: -300px;
+  z-index: -2;
+}
+
+.hoja2 .columna-transparent {
+  width: 50px;
+  height: 768px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: #00065F;
+  position: absolute;
+  left: 455px;
+  background-color: white;
+  opacity: 10%;
+}
+
+.hoja3 {
+  width: 1366px;
+  height: 768px;
+  border-bottom: solid 0.5px;
+  border-color: rgba(0, 0, 0, 0.116);
+}
+
+.hoja3 .tecnologias-title {
+  font-size: 40px;
+  position: absolute;
+  left: 35px;
+}
+
+.hoja3 .tecnologias {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 150px 150px;
+      grid-template-rows: 150px 150px;
+  -ms-grid-columns: 150px 150px 150px 150px;
+      grid-template-columns: 150px 150px 150px 150px;
+  gap: 0px 0px;
+      grid-template-areas: ". . . ." ". . . .";
+  border-right: solid 0.5px;
+  width: 648px;
+  height: 300px;
+  position: absolute;
+  top: 1700px;
+  left: 15px;
+}
+
+.hoja3 .educacion {
+  position: absolute;
+  top: 1700px;
+  left: 730px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 137fr;
+      grid-template-columns: 137fr;
+  -ms-grid-rows: 140px;
+      grid-template-rows: 140px;
+  gap: 0px 0px;
+      grid-template-areas: ".";
+}
+
+.hoja3 .educacion-title {
+  font-size: 40px;
+  margin-left: 730px;
+}
+
+.hoja3 .columna-azul {
+  width: 200px;
+  height: 768px;
+  background-color: #00065F;
+  position: absolute;
+  top: 1547px;
+  left: 1175px;
+  opacity: 50%;
+}
+
+.hoja3 #udemy {
+  margin-left: 10px;
+}
+
+.hoja4 {
+  width: 1366px;
+  height: 768px;
+}
+
+.hoja4 h3 {
+  font-size: 50px;
+  position: absolute;
+  left: 80px;
+  top: 2320px;
+}
+
+.hoja4 ul {
+  width: 200px;
+  height: 200px;
+  border-right: solid 1px;
+  width: 648px;
+  height: 502px;
+  margin: 132px 0 0 0;
+  margin: 132px 0 0 35px;
+}
+
+.hoja4 ul li {
+  font-size: 40px;
+  margin: 0 0 0 30px;
+}
+
+.hoja4 form {
+  position: absolute;
+  top: 2426px;
+  left: 750px;
+  width: 470px;
+  height: 530px;
+}
+
+.hoja4 form label, .hoja4 form input {
+  display: block;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.hoja4 form input {
+  width: 470px;
+  margin: 22px 0 0 0;
+  height: 55px;
+  border-radius: 5px;
+  border-color: #00065f13;
+}
+
+.hoja4 form #coment {
+  height: 300px;
+  width: 470px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.hoja4 #contacto {
+  position: absolute;
+  left: 750px;
+  top: 2317px;
+}
+
+.hoja4 .links-project {
+  color: #00065F;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

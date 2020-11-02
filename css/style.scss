@@ -1,0 +1,261 @@
+$fuente: 'Open Sans', sans-serif;
+$color: #00065F;
+
+
+  
+
+html, body {
+
+    width: 1366px;
+    height: 3072px;
+
+    
+
+}
+
+h1, h2,h3, span,p, li{
+    font-family: $fuente;
+    color: $color;
+    
+
+
+}
+.menu_a{
+    font-family: $fuente;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  
+
+}
+
+@import './hoja1.scss';
+
+
+.hoja2{
+
+    height: 768px;
+    margin: 0;
+    border-bottom: solid 0.5px;
+    border-color: rgba(0, 0, 0, 0.116);
+    
+    .acerca-de{
+
+        font-size: 80px;
+        margin: 10px 0 0 910px;
+
+    }
+    
+    .parrafo{
+
+        font-size: 20px;
+        width: 715px;
+        height: 237px;
+        margin: 85px 0 0 600px;
+        text-align: right;
+
+
+    }
+    .triangle{
+        width: 1250px;
+        height: 0.1px;
+        border: solid 1px;
+        background-color: #00065F;
+        transform: rotate(-45deg);
+        position: absolute;
+        opacity: 20%;
+        top: 1200px;
+        left: -300px;
+        z-index: -2;
+    }
+    .columna-transparent{
+
+        width: 50px;
+        height: 768px;
+        border: solid 1px;
+        border-radius: 5px;
+        border-color: $color;
+        
+        position: absolute;
+        left: 455px;
+        background-color: white;
+        opacity: 10%;
+    }
+
+
+}
+
+.hoja3{
+    width: 1366px;
+    height: 768px;
+    border-bottom: solid 0.5px;
+    border-color: rgba(0, 0, 0, 0.116);
+
+    
+    .tecnologias-title{
+        font-size:40px;
+        position: absolute;
+        left: 35px;
+
+
+
+    }
+
+
+    .tecnologias{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 150px 150px 150px 150px;
+        gap: 0px 0px;
+        grid-template-areas:
+          ". . . ."
+          ". . . .";
+        border-right: solid 0.5px;
+        width: 648px;
+        height: 300px;
+        position: absolute;
+        top: 1700px;
+        left: 15px;
+
+
+        
+        
+        
+
+
+    }
+    .educacion{
+        position: absolute;
+        top: 1700px;
+        left: 730px;
+        display: grid;
+        grid-template-columns: 137fr;
+        grid-template-rows: 140px;
+        gap: 0px 0px;
+        grid-template-areas:
+        ".";
+    }
+
+    .educacion-title{
+
+        font-size: 40px;
+        margin-left: 730px;
+
+    }
+    .columna-azul{
+
+        width: 200px;
+        height: 768px;
+        background-color:$color;
+        position: absolute;
+        top: 1547px;
+        left: 1175px;
+        opacity: 50%;
+
+    }
+    #udemy{
+        margin-left: 10px;
+
+
+    }
+   
+
+    
+
+
+}
+
+
+.hoja4{
+
+    width: 1366px;
+    height: 768px;
+   
+   
+    h3{
+        font-size: 50px;
+        position: absolute;
+        left: 80px;
+        top: 2320px;
+        
+
+    }
+    ul{
+        width: 200px;
+        height: 200px;
+        border-right: solid 1px;
+        width: 648px;
+        height: 502px;
+        margin: 132px 0 0 0 ;
+        margin: 132px 0 0 35px ;
+        li{
+
+            font-size: 40px;
+            margin: 0 0 0 30px;
+
+        }
+
+    }
+    form{
+        
+  
+        position: absolute;
+        top: 2426px;
+        left:750px;
+        width: 470px;
+        height: 530px;
+        
+        
+        
+        label, input{
+            display:block;
+            font-size: 20px;
+            margin-left: 20px;
+
+        }
+
+        input {
+
+            width: 470px;
+            margin: 22px 0 0 0 ;
+            height: 55px;
+            border-radius: 5px;
+            border-color: #00065f13;
+            //border-radius: 20px;
+
+        }
+        #coment{
+
+            
+            height: 300px;
+            width: 470px;
+            margin-top: 5px;
+            border-radius: 5px;
+        
+
+        }
+   
+
+
+
+
+    }
+    #contacto{
+   
+        
+        position: absolute;
+        left:750px;
+        top: 2317px;
+
+
+    }
+    .links-project{
+        color:$color;
+        font-size: 20px;
+
+
+
+    }
+
+}
