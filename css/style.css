@@ -1,18 +1,12 @@
 html, body {
   width: 1366px;
   height: 3072px;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, span, p, li {
   font-family: "Open Sans", sans-serif;
   color: #00065F;
-}
-
-.menu_a {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  text-decoration: none;
-  margin-right: 15px;
 }
 
 .hoja1 {
@@ -22,26 +16,49 @@ h1, h2, h3, span, p, li {
   border-color: rgba(0, 0, 0, 0.116);
 }
 
+.hoja1 #foto-gallery {
+  position: absolute;
+  top: 140px;
+  left: 500px;
+  width: 341.5px;
+  height: 384px;
+}
+
 .hoja1 .foto-cv {
   position: absolute;
   left: 670px;
   top: 0;
-  z-index: -1;
+  z-index: 0;
+  -webkit-transition: 0.6s 0.7s;
+  transition: 0.6s 0.7s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
-.hoja1 .foto-cv .main {
+.hoja1 .main {
   margin: 0;
 }
 
-.hoja1 .main-menu {
+.main-menu {
   position: absolute;
   left: 718px;
   top: 11px;
-  z-index: 0;
+  z-index: 1;
   font-size: 20px;
 }
 
-.hoja1 .main_contact {
+nav {
+  color: black;
+}
+
+.menu_a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+}
+
+.main_contact {
   position: absolute;
   left: 53px;
   top: 11px;
@@ -49,32 +66,74 @@ h1, h2, h3, span, p, li {
   font-size: 20px;
 }
 
-.hoja1 .name {
+.name {
   font-size: 115px;
   width: 387px;
   height: 287px;
   margin: 0 0 0 35px;
 }
 
-.hoja1 .front-end {
+.front-end {
   font-size: 28px;
   margin: 54px 0 0 37px;
 }
 
-.hoja1 .name-front {
+.name-front {
   margin: 140px 0 0 0;
 }
 
-.hoja1 .main_imglink {
+.main_imglink {
   position: absolute;
   left: 250px;
   top: 3px;
 }
 
-.hoja1 #whatsapp {
+#whatsapp {
   position: absolute;
   left: -50px;
   top: -4px;
+  -webkit-transition: 0.6s 0.7s;
+  transition: 0.6s 0.7s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+#whatsapp:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(137, 43, 226, 0.082);
+}
+
+#instagram {
+  -webkit-transition: 0.6s 0.7s;
+  transition: 0.6s 0.7s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+#instagram:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(137, 43, 226, 0.082);
+}
+
+#github {
+  -webkit-transition: 0.6s 0.7s;
+  transition: 0.6s 0.7s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+#github:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(137, 43, 226, 0.082);
+}
+
+.foto-cv:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(137, 43, 226, 0.082);
 }
 
 .hoja2 {
@@ -221,6 +280,7 @@ h1, h2, h3, span, p, li {
   left: 750px;
   width: 470px;
   height: 530px;
+  visibility: hidden;
 }
 
 .hoja4 form label, .hoja4 form input {
@@ -248,10 +308,15 @@ h1, h2, h3, span, p, li {
   position: absolute;
   left: 750px;
   top: 2317px;
+  visibility: hidden;
 }
 
 .hoja4 .links-project {
   color: #00065F;
   font-size: 20px;
+}
+
+.hoja4 .contact {
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */

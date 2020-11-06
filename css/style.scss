@@ -8,6 +8,7 @@ html, body {
 
     width: 1366px;
     height: 3072px;
+    scroll-behavior: smooth;
 
     
 
@@ -20,16 +21,175 @@ h1, h2,h3, span,p, li{
 
 
 }
-.menu_a{
-    font-family: $fuente;
-    color: white;
-    text-decoration: none;
-    margin-right: 15px;
-  
 
-}
 
-@import './hoja1.scss';
+
+.hoja1{
+    height: 627px;
+    margin: 0;
+    border-bottom: solid 1px;
+    border-color: rgba(0, 0, 0, 0.116);
+
+    
+
+    #foto-gallery{
+
+        position:absolute;
+        top: 140px;
+        left: 500px;
+        width: 341.5px;
+        height: 384px;
+        
+
+    }
+
+    
+    .foto-cv{
+        position: absolute;
+        left: 670px;
+        top: 0;
+        z-index: 0;
+        transition: 0.6s 0.7s;
+        transition-delay:0.1s; 
+    }
+
+
+
+    .main{
+        margin: 0;
+
+    }
+
+    }
+    .main-menu{
+        position: absolute;
+        left: 718px;
+        top: 11px;
+        z-index: 1;
+        font-size: 20px;
+
+
+      
+
+
+    }
+    nav{
+     color: black;
+
+    }
+    
+    .menu_a{
+
+        font-family: $fuente;
+        text-decoration: none;
+        margin-right: 15px;
+        color: white;
+        
+
+       
+
+    }
+
+    
+
+
+    .main_contact{
+        position: absolute;
+        left: 53px;
+        top: 11px;
+        width: 60px;
+        font-size: 20px;
+
+
+    }
+
+    .name{
+    
+        font-size: 115px;
+        width: 387px;
+        height: 287px;
+        margin: 0 0 0 35px;   
+
+    }
+    .front-end{
+    
+        font-size:28px;
+        margin: 54px 0 0 37px;
+    
+    }
+    
+    .name-front{
+
+        margin: 140px 0 0 0;
+
+    
+    }
+    
+    .main_imglink{
+    
+
+        position:absolute;
+        left: 250px;
+        top: 3px;
+
+       
+    
+    }
+    #whatsapp{
+        position:absolute;
+        left: -50px;
+        top: -4px;
+        transition: 0.6s 0.7s;
+        transition-delay:0.1s;
+
+        
+
+
+    }
+    #whatsapp:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(137, 43, 226, 0.082);
+
+
+
+    }
+
+    #instagram{
+        transition: 0.6s 0.7s;
+        transition-delay:0.1s;
+
+
+    }
+    #instagram:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(137, 43, 226, 0.082);
+
+
+    }
+    #github{
+        transition: 0.6s 0.7s;
+        transition-delay:0.1s;
+
+
+    }
+    #github:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(137, 43, 226, 0.082);
+
+
+    }
+
+
+    .foto-cv:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(137, 43, 226, 0.082);
+
+
+    }
+
+   
+
+
 
 
 .hoja2{
@@ -205,6 +365,7 @@ h1, h2,h3, span,p, li{
         left:750px;
         width: 470px;
         height: 530px;
+        visibility: hidden;
         
         
         
@@ -247,13 +408,20 @@ h1, h2,h3, span,p, li{
         position: absolute;
         left:750px;
         top: 2317px;
+        visibility: hidden;
 
 
     }
+    
     .links-project{
         color:$color;
         font-size: 20px;
 
+
+
+    }
+    .contact{
+        visibility: hidden;
 
 
     }

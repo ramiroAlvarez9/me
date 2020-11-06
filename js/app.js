@@ -59,8 +59,37 @@ function obtenerInformacionTexto(){
   
   }
 
+
+const foto= document.querySelector('.foto-cv');
+const background = document.querySelector('.hoja1');
+const menuLetters = document.querySelector('.menu_a');
+const about = document.querySelector('#about');
+const skills = document.querySelector('#skills');
+const portfolio = document.querySelector('#portfolio');
+//const nav = document.querySelector('.main-menu');
+foto.addEventListener('click', () =>{
+
+  foto.setAttribute('id', 'foto-gallery')
+  background.style.backgroundColor = ' rgba(0, 0, 0, 0.055)';
+  about.style.color ='#00065F';   
+  skills.style.color ='#00065F';   
+  portfolio.style.color ='#00065F';   
+ 
+  //nav.style.color ='black';   
+
+})
+
+function onClick(){
+
+
+
+
+
+}
+
 document.addEventListener('DOMContentLoaded', (e) =>{
   crearBase();
-    
   obtenerInformacionTexto();
+
+
 })
