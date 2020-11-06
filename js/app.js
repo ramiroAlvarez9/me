@@ -79,13 +79,6 @@ foto.addEventListener('click', () =>{
 
 })
 
-function onClick(){
-
-
-
-
-
-}
 
 document.addEventListener('DOMContentLoaded', (e) =>{
   crearBase();
