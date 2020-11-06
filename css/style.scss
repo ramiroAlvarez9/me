@@ -73,10 +73,7 @@ h1, h2,h3, span,p, li{
 
 
     }
-    nav{
-     color: black;
-
-    }
+    
     
     .menu_a{
 
@@ -420,10 +417,13 @@ h1, h2,h3, span,p, li{
 
 
     }
-    .contact{
+    #portfolio-main{
         visibility: hidden;
 
 
     }
 
 }
+
+@import './media-query.scss';
+

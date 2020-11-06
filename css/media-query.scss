@@ -1,0 +1,311 @@
+$fuente: 'Open Sans', sans-serif;
+$color: #00065F;
+
+
+@media (max-width: 768px) {
+    
+
+    body, html {
+
+        width: 360px;
+        height: 3000px;
+        
+    }
+    .hoja1{
+        height: 360px;
+        width: 360px;
+        
+        #photo{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top:170px;
+            left: 185px;
+            
+    
+            
+        }
+
+
+    }
+    
+    #photo{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top:500px;
+        
+
+        
+    }
+    .front-end{
+
+        position:absolute;
+        top: 243px;
+        left:-25px;
+        font-size: 20px;
+
+    }
+    .name{
+        font-size: 40px;
+        width: 200px;
+        position: absolute;
+        left: -20px;
+        top: 157px;
+
+
+    }
+    .main_contact{
+        position: absolute;
+        left:20px;
+        top: 11px;
+        width: 60px;
+        font-size: 20px;
+        visibility: hidden;
+
+
+    }
+    .menu_a{
+
+        font-family: $fuente;
+        text-decoration: none;
+        margin-right: 15px;
+        color: $color;
+        
+
+       
+
+    }
+    .main-menu{
+        position: absolute;
+        left: 22px;
+        top: 18px;
+        z-index: 1;
+        font-size: 10px;
+       
+        
+
+
+      
+
+
+    }
+
+    .hoja2{
+
+        width: 360px;
+        height: 360px;
+        border-bottom: solid 0.5px;
+        border-color: rgba(0, 0, 0, 0.116);
+        
+        .acerca-de{
+    
+            font-size: 40px;
+            margin: 10px 0 0 7px;
+    
+        }
+        
+        .parrafo{
+    
+            font-size: 16px;
+            width: 310px;
+            height: 237px;
+            margin: 35px 0 0 7px;
+            text-align: left;
+    
+    
+        }
+        .triangle{
+            visibility: hidden;
+
+
+        }
+        
+
+
+    }
+    .hoja3{
+        width: 360px;
+        height: 950px;
+        border-bottom: solid 0.5px;
+        border-right: solid 1px;
+        border-color: rgba(0, 0, 0, 0.116);
+    
+        
+        .tecnologias-title{
+            font-size:40px;
+            position: absolute;
+            left: 18px;
+    
+    
+    
+        }
+
+        .educacion-title{
+            
+            position: absolute;
+            left: -710px;
+
+            top: 1400px;
+            
+
+        }
+    
+    
+        .tecnologias{
+            display: grid;
+            grid-template-columns: 100px 100px;
+            grid-template-rows: 100px 100px 100px 150px;
+            gap: 0px 0px;
+            grid-template-areas:
+              ". ."
+              ". ."
+              ". ."
+              ". .";
+            position: absolute;
+            top: 1020px;
+    
+    
+            
+            
+            
+    
+    
+        }
+        .educacion{
+            position: absolute;
+            top: 1600px;
+            left: 100px;
+            display: grid;
+            grid-template-columns: 137fr;
+            grid-template-rows: 140px;
+            gap: 0px 0px;
+            grid-template-areas:
+            ".";
+        
+        
+        }
+        #html{
+            width: 100px;
+            height: 100px;
+
+        }
+        
+        #css{
+            width: 100px;
+            height:100px;
+
+        }
+
+
+        
+        #sass{
+            width: 100px;
+            height: 100px;
+
+        }
+        
+        #js{
+            width: 100px;
+            height: 100px;
+
+        }
+        #git{
+            width: 100px;
+            height: 100px;
+
+            
+        }
+        #python{
+            width: 100px;
+            height: 100px;
+
+        }
+        #hubspot{
+            width: 150px;
+            height: 100px;
+
+
+        }
+
+        #unq{
+            width: 182px;
+            height: 66px;
+
+
+        }
+
+        #platzi{
+            width: 182px;
+            height: 70px;
+
+
+        }
+
+        #udemy{
+            width: 170px;
+            height: 50px;
+
+
+        }
+
+        .educacion{
+            position:absolute;
+            left: 26px;
+            top: 1530px;
+            display: grid;
+            grid-template-columns: 137fr;
+            grid-template-rows: 70px;
+            gap: 0px 0px;
+            grid-template-areas:
+            ".";
+            
+
+        }
+       
+    
+
+    }
+
+    .hoja4{
+        
+        h3{
+
+            position: absolute;
+            top: 1800px;
+            left: 30px;
+
+        }
+
+
+
+    }
+
+    .links-project{
+
+        position:absolute;
+        left: 30px;
+        font-size: 20px;
+        
+        width: 360px;
+     
+
+
+    }
+
+    .example-li {
+
+        font-size: 20px;
+        list-style:none;
+        padding-bottom: 100px;
+        
+    
+
+    }
+
+    #portfolio-main{
+        visibility: hidden;
+
+    }
+    
+  }
