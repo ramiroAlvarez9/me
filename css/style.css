@@ -196,8 +196,8 @@ h1, h2, h3, span, p, li {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 150px 150px;
-      grid-template-rows: 150px 150px;
+  -ms-grid-rows: 150px 150px 150px;
+      grid-template-rows: 150px 150px 150px;
   -ms-grid-columns: 150px 150px 150px 150px;
       grid-template-columns: 150px 150px 150px 150px;
   gap: 0px 0px;
@@ -241,6 +241,10 @@ h1, h2, h3, span, p, li {
 
 .hoja3 #udemy {
   margin-left: 10px;
+}
+
+.hoja3 #hubspot {
+  margin-top: 33px;
 }
 
 .hoja4 {

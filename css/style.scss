@@ -262,7 +262,7 @@ h1, h2,h3, span,p, li{
     .tecnologias{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 150px 150px;
+        grid-template-rows: 150px 150px 150px;
         grid-template-columns: 150px 150px 150px 150px;
         gap: 0px 0px;
         grid-template-areas:
@@ -313,6 +313,13 @@ h1, h2,h3, span,p, li{
     }
     #udemy{
         margin-left: 10px;
+
+
+    }
+    #hubspot {
+        margin-top: 33px;
+
+
 
 
     }
