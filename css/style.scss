@@ -225,20 +225,7 @@ h1, h2,h3, span,p, li{
         left: -300px;
         z-index: -2;
     }
-    .columna-transparent{
-
-        width: 50px;
-        height: 768px;
-        border: solid 1px;
-        border-radius: 5px;
-        border-color: $color;
-        
-        position: absolute;
-        left: 455px;
-        background-color: white;
-        opacity: 10%;
-    }
-
+    
 
 }
 
@@ -295,7 +282,7 @@ h1, h2,h3, span,p, li{
     }
 
     .educacion-title{
-
+        position: absolute;
         font-size: 40px;
         margin-left: 730px;
 
@@ -311,6 +298,20 @@ h1, h2,h3, span,p, li{
         opacity: 50%;
 
     }
+    .columna-transparent{
+
+        width: 50px;
+        height: 768px;
+        border: solid 1px;
+        border-radius: 5px;
+        border-color: $color;
+        
+        position: absolute;
+        left: 455px;
+        background-color: white;
+        opacity: 10%;
+    }
+
     #udemy{
         margin-left: 10px;
 
@@ -353,6 +354,7 @@ h1, h2,h3, span,p, li{
         height: 502px;
         margin: 132px 0 0 0 ;
         margin: 132px 0 0 35px ;
+        border-right: 0;
         li{
 
             font-size: 40px;

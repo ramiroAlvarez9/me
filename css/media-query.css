@@ -89,7 +89,7 @@
   .hoja3 .educacion-title {
     position: absolute;
     left: -710px;
-    top: 1400px;
+    top: 1420px;
   }
   .hoja3 .tecnologias {
     display: -ms-grid;
@@ -102,6 +102,7 @@
         grid-template-areas: ". ." ". ." ". ." ". .";
     position: absolute;
     top: 1020px;
+    border-right: 0;
   }
   .hoja3 .educacion {
     position: absolute;
@@ -141,12 +142,20 @@
     height: 100px;
   }
   .hoja3 #hubspot {
-    width: 150px;
-    height: 100px;
+    width: 110px;
+    height: 60px;
+  }
+  .hoja3 #react {
+    width: 100px;
+    height: 90px;
+  }
+  .hoja3 .columna-azul {
+    visibility: hidden;
   }
   .hoja3 #unq {
     width: 182px;
     height: 66px;
+    margin-left: 2px;
   }
   .hoja3 #platzi {
     width: 182px;
@@ -159,7 +168,7 @@
   .hoja3 .educacion {
     position: absolute;
     left: 26px;
-    top: 1530px;
+    top: 1550px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 137fr;

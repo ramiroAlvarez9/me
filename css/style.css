@@ -166,18 +166,6 @@ h1, h2, h3, span, p, li {
   z-index: -2;
 }
 
-.hoja2 .columna-transparent {
-  width: 50px;
-  height: 768px;
-  border: solid 1px;
-  border-radius: 5px;
-  border-color: #00065F;
-  position: absolute;
-  left: 455px;
-  background-color: white;
-  opacity: 10%;
-}
-
 .hoja3 {
   width: 1366px;
   height: 768px;
@@ -225,6 +213,7 @@ h1, h2, h3, span, p, li {
 }
 
 .hoja3 .educacion-title {
+  position: absolute;
   font-size: 40px;
   margin-left: 730px;
 }
@@ -237,6 +226,18 @@ h1, h2, h3, span, p, li {
   top: 1547px;
   left: 1175px;
   opacity: 50%;
+}
+
+.hoja3 .columna-transparent {
+  width: 50px;
+  height: 768px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: #00065F;
+  position: absolute;
+  left: 455px;
+  background-color: white;
+  opacity: 10%;
 }
 
 .hoja3 #udemy {
@@ -267,6 +268,7 @@ h1, h2, h3, span, p, li {
   height: 502px;
   margin: 132px 0 0 0;
   margin: 132px 0 0 35px;
+  border-right: 0;
 }
 
 .hoja4 ul li {
@@ -411,7 +413,7 @@ h1, h2, h3, span, p, li {
   .hoja3 .educacion-title {
     position: absolute;
     left: -710px;
-    top: 1400px;
+    top: 1420px;
   }
   .hoja3 .tecnologias {
     display: -ms-grid;
@@ -424,6 +426,7 @@ h1, h2, h3, span, p, li {
         grid-template-areas: ". ." ". ." ". ." ". .";
     position: absolute;
     top: 1020px;
+    border-right: 0;
   }
   .hoja3 .educacion {
     position: absolute;
@@ -463,12 +466,20 @@ h1, h2, h3, span, p, li {
     height: 100px;
   }
   .hoja3 #hubspot {
-    width: 150px;
-    height: 100px;
+    width: 110px;
+    height: 60px;
+  }
+  .hoja3 #react {
+    width: 100px;
+    height: 90px;
+  }
+  .hoja3 .columna-azul {
+    visibility: hidden;
   }
   .hoja3 #unq {
     width: 182px;
     height: 66px;
+    margin-left: 2px;
   }
   .hoja3 #platzi {
     width: 182px;
@@ -481,7 +492,7 @@ h1, h2, h3, span, p, li {
   .hoja3 .educacion {
     position: absolute;
     left: 26px;
-    top: 1530px;
+    top: 1550px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 137fr;
